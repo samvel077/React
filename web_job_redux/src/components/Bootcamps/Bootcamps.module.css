@@ -1,0 +1,200 @@
+.bootcampsContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  padding-top: 50px;
+}
+
+.bootcampsContainer h4 {
+  font-size: 24px;
+  line-height: 29px;
+  color: #212529;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.bootcampsContainer .findBootcamps {
+  width: 350px;
+  margin-right: 10px;
+}
+
+.bootcampsContainer .findBootcamps .location {
+  width: 350px;
+  padding: 15px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.bootcampsContainer .findBootcamps .location .findLocation input {
+  width: 308px;
+  padding: 10px 4px;
+  color: white;
+  margin-top: 15px;
+  background-color: #e05433;
+  border: 1px solid #e05433;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.bootcampsContainer .findBootcamps .location form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bootcampsContainer .findBootcamps .location form > input {
+  width: 135px;
+  border: 1px solid #ced4da;
+  padding: 10px 4px;
+}
+
+.bootcampsContainer .findBootcamps .location form input:first-child {
+  margin-right: 10px;
+}
+
+.bootcampsContainer .findBootcamps .location form input:last-child {
+  margin-left: 7px;
+}
+
+.bootcampsContainer .findBootcamps .filter h2 {
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 5px;
+}
+
+.bootcampsContainer .findBootcamps .filter h4 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.bootcampsContainer .findBootcamps .filter input[type="number"] {
+  width: 340px;
+  padding: 5px 3px;
+}
+
+.bootcampsContainer .findBootcamps .filter h3 {
+  font-size: 16px;
+  margin-top: 25px;
+  margin-bottom: 9px;
+}
+
+.bootcampsContainer .findBootcamps .filter input[type="submit"] {
+  width: 352px;
+  padding: 10px 5px;
+  color: white;
+  margin-top: 20px;
+  background-color: #e05433;
+  border: 1px solid #e05433;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.bootcampsContainer .bootcamps {
+  width: 730px;
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.bootcampsContainer .bootcamps .bootcampContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 17px;
+}
+
+.bootcampsContainer .bootcamps .bootcampContainer .bootcampImage {
+  width: 245px;
+  height: 163px;
+  background-color: #bcbec0;
+}
+
+.bootcampsContainer .bootcamps .bootcampContainer .bootcampImage img {
+  width: 245px;
+  height: 163px;
+}
+
+.bootcampsContainer .bootcamps .bootcampContainer .bootcamp {
+  width: 485px;
+  height: 163px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 15px;
+}
+
+.bootcampsContainer .bootcamps .bootcampContainer .bootcamp h2 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #e05433;
+  display: inline-block;
+}
+
+.bootcampsContainer .bootcamps .bootcampContainer .bootcamp .rating {
+  float: right;
+  background-color: #28a745;
+  color: #ffffff;
+  padding: 3px 5px;
+  margin-top: 19px;
+  margin-right: 20px;
+}
+
+.bootcampsContainer .bootcamps .bootcampContainer .bootcamp .locationBootcamp {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 2px 5px;
+  font-size: 12px;
+}
+
+.bootcampsContainer .bootcamps .bootcampContainer .bootcamp p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1117px) {
+  .bootcampsContainer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+  }
+  .bootcampsContainer .findBootcamps {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .bootcampsContainer .findBootcamps .location {
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .bootcampsContainer .bootcamps .bootcampContainer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .bootcampsContainer .bootcamps .bootcampContainer .bootcampImage {
+    margin: auto;
+  }
+  .bootcampsContainer .bootcamps .bootcampContainer .bootcamp {
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .bootcampsContainer .bootcamps .bootcampContainer .bootcamp {
+    width: 245px;
+  }
+}
+/*# sourceMappingURL=Bootcamps.module.css.map */

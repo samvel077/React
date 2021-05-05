@@ -1,0 +1,25 @@
+@import "./../../styles/mixins.scss";
+.paginator {
+  @include font-styles;
+
+  font-size: 16px;
+  line-height: 20px;
+
+  .pageNumber {
+    padding: 8px 13px;
+    @include button-styles(#e05433, 0px, #ffffff, 1px solid #dee2e6);
+    box-sizing: border-box;
+    border-radius: 0px;
+  }
+
+  .pageNumber.selectedPage {
+    font-weight: bold;
+    border-color: #e05433;
+  }
+
+  button {
+    font-weight: bold;
+    padding: 11px 13px;
+    @include button-styles(#e05433, 0px, #ffffff, 1px solid #dee2e6);
+  }
+}

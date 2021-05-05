@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,500);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-dark: rgb(13, 17, 19);
+  --clr-light: #fff;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: var(--clr-dark);
+  color: var(--clr-light);
+  font-family: Roboto;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.select-title {
+  position: relative;
+  background: var(--clr-light);
+  color: var(--clr-dark);
+  padding: 10px 15px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  z-index: 1;
+  font-weight: 500;
+  cursor: pointer;
+}
+.select-title i {
+  transition: 400ms;
+  cursor: pointer;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.select-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+  transition: 400ms ease-out;
+  font-size: 20px;
+  font-weight: 300;
+}
+.select-content.hidden {
+  transform: translateY(-160px);
+  visibility: hidden;
+}
+.select-content div {
+  padding: 10px 15px;
+  background: var(--clr-light);
+  color: var(--clr-dark);
+  cursor: pointer;
+}

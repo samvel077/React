@@ -1,0 +1,95 @@
+@import "./../../styles/mixins.scss";
+
+.registerContainer {
+  width: 100%;
+  @include flex-justify-center;
+  @include font-styles;
+
+  .register {
+    width: 540px;
+    height: 818px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    box-sizing: border-box;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 15px 45px;
+
+    img {
+      width: 33px;
+    }
+
+    h2 {
+      display: inline-block;
+      font-size: 40px !important;
+      color: #212529;
+      margin-bottom: 15px;
+      margin-left: 5px;
+    }
+
+    p {
+      text-align: left;
+      width: 393px;
+      font-size: 16px;
+      line-height: 24px;
+      color: #212529;
+    }
+
+    form label {
+      font-size: 15px;
+      line-height: 24px;
+      color: #212529;
+    }
+
+    form input {
+      @include input(450px);
+    }
+
+    .userRole {
+      width: 450px;
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      margin-top: 15px;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .userRole h6 {
+      margin: 0 0 15px 0;
+      font-size: 20px;
+      line-height: 24px;
+      color: #212529;
+    }
+
+    .userRole input[type="radio"] {
+      margin-left: 0px;
+      margin-bottom: 10px;
+    }
+
+    .condition {
+      margin-top: 20px;
+      p {
+        font-size: 16px;
+        line-height: 24px;
+        color: #dc3545;
+      }
+    }
+
+    input[type="button"] {
+      width: 450px;
+      height: 38px;
+      @include button-styles(white, 0, #e05433, 1px solid #e05433);
+      box-sizing: border-box;
+    }
+
+    .invalid {
+      @include invalid;
+    }
+
+    .invalidRole {
+      outline: 2px solid red !important;
+    }
+
+    .error {
+      @include error;
+    }
+  }
+}

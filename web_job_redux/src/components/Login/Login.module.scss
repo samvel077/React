@@ -1,0 +1,71 @@
+@import "./../../styles/mixins.scss";
+
+.loginContainer {
+  width: 100%;
+  @include flex-justify-center;
+  @include font-styles;
+
+  .login {
+    width: 540px;
+    height: 484px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    box-sizing: border-box;
+    margin-top: 40px;
+    padding: 15px 45px;
+
+    img {
+      width: 33px;
+    }
+
+    h2 {
+      display: inline-block;
+      font-size: 40px;
+      color: #212529;
+      margin-bottom: 15px;
+      margin-left: 5px;
+    }
+
+    p {
+      text-align: left;
+      width: 393px;
+      font-size: 16px;
+      line-height: 24px;
+      color: #212529;
+    }
+
+    form label {
+      font-size: 15px;
+      line-height: 24px;
+      color: #212529;
+    }
+
+    form input {
+      @include input(450px);
+    }
+
+    form input:last-child {
+      @include button-styles(white, 15px, #e05433, 1px solid #e05433);
+    }
+
+    span {
+      font-size: 16px;
+      line-height: 24px;
+      color: #212529;
+    }
+
+    span a {
+      text-decoration: none;
+      font-size: 15px;
+      line-height: 24px;
+      color: #e05433;
+    }
+
+    .invalid {
+      @include invalid;
+    }
+
+    .error {
+      @include error;
+    }
+  }
+}

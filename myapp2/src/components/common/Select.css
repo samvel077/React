@@ -1,0 +1,19 @@
+.custom-select {
+    width: 200px;
+    margin-left: 250px;
+    margin-top: -50px;
+    position: absolute;
+}
+
+select {
+    width: 100px;
+    height: 30px;
+    outline: none;
+    background-color: #0F273D;
+    color: #9CB3C9;
+}
+
+option {
+    background-color: #0F273D;
+    color: #9CB3C9;
+}

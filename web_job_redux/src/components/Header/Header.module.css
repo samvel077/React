@@ -1,0 +1,110 @@
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #e05433;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  z-index: 1;
+}
+
+header .devCumper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+header .devCumper img {
+  width: 36px;
+  margin-right: 10px;
+}
+
+header .devCumper span {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+header .links ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+header .links ul li {
+  margin-right: 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+header .links ul li img {
+  margin-right: 5px;
+}
+
+header .links a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+header .links .activeLink {
+  color: white !important;
+}
+
+header .links .polygon_svg {
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+header .links .dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+header .links .dropdownContent span,
+header .links .dropdownContent span a {
+  color: #f30b0b;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+}
+
+header .links .dropdownContent span :hover {
+  color: rgba(116, 114, 114, 0.2);
+}
+
+header .links .dropbtn {
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+header .links .dropdownContent span a:hover {
+  color: #a32b2b;
+}
+
+header .links .show {
+  display: block !important;
+}
+/*# sourceMappingURL=Header.module.css.map */

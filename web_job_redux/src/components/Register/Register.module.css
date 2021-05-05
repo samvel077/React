@@ -1,0 +1,118 @@
+.registerContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.registerContainer .register {
+  width: 540px;
+  height: 818px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 15px 45px;
+}
+
+.registerContainer .register img {
+  width: 33px;
+}
+
+.registerContainer .register h2 {
+  display: inline-block;
+  font-size: 40px !important;
+  color: #212529;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+.registerContainer .register p {
+  text-align: left;
+  width: 393px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #212529;
+}
+
+.registerContainer .register form label {
+  font-size: 15px;
+  line-height: 24px;
+  color: #212529;
+}
+
+.registerContainer .register form input {
+  width: 450px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.registerContainer .register .userRole {
+  width: 450px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  margin-top: 15px;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.registerContainer .register .userRole h6 {
+  margin: 0 0 15px 0;
+  font-size: 20px;
+  line-height: 24px;
+  color: #212529;
+}
+
+.registerContainer .register .userRole input[type="radio"] {
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+
+.registerContainer .register .condition {
+  margin-top: 20px;
+}
+
+.registerContainer .register .condition p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #dc3545;
+}
+
+.registerContainer .register input[type="button"] {
+  width: 450px;
+  height: 38px;
+  color: white;
+  margin-top: 0;
+  background-color: #e05433;
+  border: 1px solid #e05433;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.registerContainer .register .invalid {
+  border: 2px solid red !important;
+  margin-bottom: 0px !important;
+}
+
+.registerContainer .register .invalidRole {
+  outline: 2px solid red !important;
+}
+
+.registerContainer .register .error {
+  display: inline-block !important;
+  margin-bottom: 10px !important;
+  font-size: 12px !important;
+  color: red !important;
+}
+/*# sourceMappingURL=Register.module.css.map */

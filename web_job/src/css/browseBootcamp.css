@@ -1,0 +1,138 @@
+.bootcamp_content {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
+.conteiner_1 {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.location {
+  width: 350px;
+  height: 178px;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-sizing: border-box;
+}
+
+.inputsss {
+  width: 139px;
+  height: 38px;
+}
+
+.button10 {
+  width: 308px;
+  height: 38px;
+  background: #e05433;
+  border: 1px solid #e05433;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+h3 {
+  font-family: Roboto;
+  font-size: 24px;
+  color: #212529;
+  padding-bottom: 10px;
+}
+
+.input_20 {
+  margin-left: 28px;
+}
+
+.filter {
+  width: 350px;
+  margin-top: 20px;
+}
+
+.input_number {
+  width: 350px;
+  height: 38px;
+  box-sizing: border-box;
+}
+
+label {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #212529;
+}
+
+.button20 {
+  width: 350px;
+  height: 38px;
+  background: #e05433;
+  border: 1px solid #e05433;
+  box-sizing: border-box;
+  border-radius: 0px;
+}
+
+.second_content {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  width: 730px;
+  height: 164px;
+}
+
+.second_content img {
+  width: 245px;
+  height: 163px;
+}
+
+.conteiner2 {
+  padding-left: 30px;
+}
+
+.text_content {
+  padding: 20px;
+}
+
+.text_content span {
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 24px;
+  color: #e05433;
+}
+
+.text_content .div_1 {
+  width: 33px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 400px;
+  margin-top: -25px;
+  background: #28a745;
+  padding: 3px 5px;
+}
+
+.div_2 {
+  max-width: 100px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  background: #343a40;
+  border-radius: 0px;
+  margin-top: 18px;
+  padding: 3px 5px;
+}
+
+.text_content p {
+  margin-top: 10px;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  color: #212529;
+}
+
+.first_conetnt {
+   margin-top: 19px;
+}

@@ -1,0 +1,47 @@
+@import "./variables.scss";
+
+@mixin invalid {
+  border: 2px solid $error-color !important;
+  margin-bottom: 0px !important;
+}
+
+@mixin error {
+  display: inline-block !important;
+  margin-bottom: 10px !important;
+  font-size: 12px !important;
+  color: $error-color !important;
+}
+
+@mixin input($width) {
+  width: $width;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  outline: none;
+  box-sizing: border-box;
+}
+
+@mixin font-styles {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@mixin flex-justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin button-styles($color, $margin-top, $bc, $border) {
+  color: $color;
+  margin-top: $margin-top;
+  background-color: $bc;
+  border: $border;
+  cursor: pointer;
+}
+
+@mixin media($max-width) {
+  @media only screen and(max-width: $max-width) {
+    @content;
+  }
+}

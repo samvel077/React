@@ -1,0 +1,91 @@
+.loginContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.loginContainer .login {
+  width: 540px;
+  height: 484px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 40px;
+  padding: 15px 45px;
+}
+
+.loginContainer .login img {
+  width: 33px;
+}
+
+.loginContainer .login h2 {
+  display: inline-block;
+  font-size: 40px;
+  color: #212529;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+.loginContainer .login p {
+  text-align: left;
+  width: 393px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #212529;
+}
+
+.loginContainer .login form label {
+  font-size: 15px;
+  line-height: 24px;
+  color: #212529;
+}
+
+.loginContainer .login form input {
+  width: 450px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.loginContainer .login form input:last-child {
+  color: white;
+  margin-top: 15px;
+  background-color: #e05433;
+  border: 1px solid #e05433;
+}
+
+.loginContainer .login span {
+  font-size: 16px;
+  line-height: 24px;
+  color: #212529;
+}
+
+.loginContainer .login span a {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 24px;
+  color: #e05433;
+}
+
+.loginContainer .login .invalid {
+  border: 2px solid red !important;
+  margin-bottom: 0px !important;
+}
+
+.loginContainer .login .error {
+  display: inline-block !important;
+  margin-bottom: 10px !important;
+  font-size: 12px !important;
+  color: red !important;
+}
+/*# sourceMappingURL=Login.module.css.map */

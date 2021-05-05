@@ -1,0 +1,103 @@
+.login_content {
+  position: absolute;
+  width: 540px;
+  height: 484px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+
+.section1 {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+}
+
+.login_text {
+  font-family: Roboto;
+  font-size: 40px;
+  color: #212529;
+  padding: 10px;
+  margin-left: 25px;
+}
+
+.img {
+  width: 19px;
+  height: 13px;
+  position: absolute;
+  margin-top: 17px;
+}
+
+.lodin_elements {
+  padding: 50px;
+}
+
+.lodin_elements p {
+  width: 393px;
+  height: 48px;
+  padding-top: 10px;
+
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #212529;
+}
+
+form {
+  padding-top: 20px;
+}
+
+label {
+  font-family: Roboto;
+  font-size: 15px;
+  padding-top: 20px;
+  color: #212529;
+}
+
+input {
+  width: 450px;
+  height: 38px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 10px;
+  font-family: Roboto;
+}
+
+button {
+  width: 450px;
+  height: 38px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+  background: #e05433;
+  border: 1px solid #e05433;
+  box-sizing: border-box;
+}
+
+.password_text {
+  font-family: Roboto;
+  font-size: 16px;
+  color: #212529;
+  margin-left: 10px;
+}
+
+.password_link {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #e05433;
+}
+
+.reset {
+  padding-top: 10px;
+}
+
+

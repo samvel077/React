@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+
+.conteiner {
+  /* width: 1833px; */
+  width: 100%;
+  position: absolute;
+  height: 56px;
+  background: #e05433;
+  border-radius: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 99;
+}
+
+.compony_name a {
+  position: absolute;
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.logo {
+  width: 36px;
+  height: 29px;
+  margin-right: 10px;
+}
+
+.users_login a {
+  font-family: Roboto;
+  font-size: 16px;
+  margin-left: 15px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.users_login .img_2 {
+  margin-left: 15px;
+}
+
+.line {
+  position: absolute;
+  width: 3px;
+  height: 18px;
+  top: 20px;
+  left: 1195px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.Logout {
+  font-family: Roboto;
+  font-size: 16px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.5);
+}
+
