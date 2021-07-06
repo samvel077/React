@@ -273,3 +273,132 @@ startbutton.addEventListener('click', function () {
    }, 800);
 })
 // --------------mini game------------------
+
+
+
+
+
+//-----------------odometor animation--------------
+// let counters = document.getElementsByClassName('number-ticker');
+// let data = {
+//    number: Math.floor(Math.random() * 1000000)
+// }
+
+
+// let defaultDigitNode = document.createElement('div');
+// defaultDigitNode.classList.add('digit');
+
+// for (let i = 0; i < 10; i++) {
+//    defaultDigitNode.innerHTML += i + '<br>';
+// }
+
+// [].forEach.call(counters, function (counter) {
+//    let currentValue = data.number.toString();
+//    let digits = [];
+
+//    generateDigits(currentValue.length);
+
+//    setTimeout(() => {
+//       setValue(currentValue);
+//    });
+
+//    function setValue(number) {
+//       let s = number.toString().split('').reverse().join('');
+//       let l = s.length;
+
+//       if (l > digits.length) {
+//          generateDigits(l - digits.length);
+//       }
+
+//       for (let i = 0; i < digits.length; i++) {
+//          setDigit(i, s[i] || 0);
+//       }
+//    }
+
+//    function setDigit(digitIndex, number) {
+//       digits[digitIndex].style.marginTop = '-' + number + 'em';
+//    }
+
+//    function generateDigits(amount) {
+//       for (let i = 0; i < amount; i++) {
+//          let d = defaultDigitNode.cloneNode(true);
+//          counter.appendChild(d);
+//          digits.unshift(d);
+//       }
+//    }
+// });
+//-----------------odometor animation--------------
+
+
+
+
+
+
+// ---------------remove dublication----------------
+// let arr = [
+//    { num: 1, type: 'num1' },
+//    { num: 2, type: 'num1' },
+//    { num: 1, type: 'num1' },
+//    { num: 1, type: 'num1' },
+//    { num: 1, type: 'num1' },
+//    { num: 2, type: 'num2' },
+//    { num: 1, type: 'num1' },
+//    { num: 2, type: 'num2' },
+//    { num: 1, type: 'num1' },
+//    { num: 3, type: 'num3' },
+//    { num: 3, type: 'num3' },
+//    { num: 3, type: 'num3' },
+// ]
+
+// arr = [...new Set(arr.map(a => JSON.stringify(a)))].map(a => JSON.parse(a))
+// ---the same as top--- arr = [...new Set(arr.map(JSON.stringify))].map(JSON.parse)
+// --------------remove dublication----------------
+
+
+
+
+
+
+// -----------------For vimeo video-----------------
+// const iframe = document.querySelector('iframe')
+// const url = "https://player.vimeo.com/video/561730156";
+// iframe.contentWindow.postMessage(`{"method":"play"}`, url)
+// iframe.contentWindow.postMessage(`{"method":"pause"}`, url)
+// -----------------For vimeo video-----------------
+
+
+
+
+
+// -----------------For youtube video-----------------
+//document.querySelectorAll('.youtube-video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*');
+//document.querySelectorAll('.youtube-video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
+// -----------------For youtube video-----------------
+
+
+
+
+
+//----------------Smooth scroll------------------
+// function Click(element) {
+//    element.scrollIntoView({ behavior: "smooth", block: "start" });
+// }
+//----------------Smooth scroll------------------
+
+
+
+
+
+//-------------Function task---------------
+// Object.prototype.sum = sum
+
+// function sum(n) {
+//    if (!window.a) {
+//       window.a = 0
+//    }
+//    window.a += n
+//    return window.a
+// }
+
+// console.log(sum(1).sum(2).sum(3).sum(12))
+//-------------Function task---------------
