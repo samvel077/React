@@ -401,4 +401,34 @@ startbutton.addEventListener('click', function () {
 // }
 
 // console.log(sum(1).sum(2).sum(3).sum(12))
+
+
+
+// Number.prototype.sum = function (value) {
+//    return this + value;
+//  };
+//  function sum(value) {
+//    return value;
+//  }
+//  console.log(sum(5).sum(8).sum(6).sum(3));
 //-------------Function task---------------
+
+
+
+
+
+
+//-----------------other tasks----------------------
+// const a = (arr) => {
+   // const prod = (n, q) =>
+   //   Array(q)
+      //  .fill(null)
+      //  .reduce((acc, e, i) => acc * (n - i), 1);
+   // const [b, g, n] = arr;
+   // const k = n / 2;
+   // const b1 = prod(b, k);
+   // const b2 = prod(g, k);
+   // return (b1 * b2) / k;
+//  };
+//  console.log(a([2,2,2]));
+//-----------------other tasks----------------------
