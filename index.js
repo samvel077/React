@@ -432,3 +432,63 @@ startbutton.addEventListener('click', function () {
 //  };
 //  console.log(a([2,2,2]));
 //-----------------other tasks----------------------
+
+
+
+
+
+
+//---------------------Work with Files-------------------
+// function uploadFile(event) {
+//    let reader = new FileReader();
+//    reader.readAsDataURL(event.target.files[0]);
+//    let fileSize = event.target.files[0].size / 1024 / 1024
+
+//    reader.onload = (_event) => {
+//       dataURLtoFile(reader.result, 'file-1')
+//       base64ToblobTofile(reader.result, 'file-1')
+//    }
+// }
+
+// function dataURLtoFile(dataurl, filename) {
+
+//    var arr = dataurl.split(','),
+//       mime = arr[0].match(/:(.*?);/)[1],
+//       bstr = atob(arr[1]),
+//       n = bstr.length,
+//       u8arr = new Uint8Array(n);
+
+//    while (n--) {
+//       u8arr[n] = bstr.charCodeAt(n);
+//    }
+
+//    return new File([u8arr], filename, { type: mime });
+// }
+
+//return a promise that resolves with a File instance
+// function urltoFile(url, filename, mimeType) {
+//    return (fetch(url)
+//       .then(function (res) { return res.arrayBuffer(); })
+//       .then(function (buf) { return new File([buf], filename, { type: mimeType }); })
+//    );
+// }
+
+//Usage example:
+// urltoFile('data:text/plain;base64,aGVsbG8gd29ybGQ=', 'hello.txt', 'text/plain')
+//    .then(function (file) { console.log(file); });
+
+
+// function base64ToblobTofile(url, fileName) {
+//    fetch(url)
+//       .then(res => res.blob())
+//       .then(blob => {
+//          // Alternativ variant
+//          // let formData = new FormData()
+//          // formData.append('name', blob, 'file');
+//          // formData.get('name')
+
+
+//          const file = new File([blob], fileName, { type: "image/jpg" })
+//       })
+// }
+//---------------------Work with Files-------------------
