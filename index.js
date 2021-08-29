@@ -492,3 +492,34 @@ startbutton.addEventListener('click', function () {
 //       })
 // }
 //---------------------Work with Files-------------------
+
+
+
+
+
+
+
+//--------------get camera model-----------------
+// function getCameraModel() {
+//    navigator.mediaDevices.enumerateDevices().then(function (devices) {
+//       console.log(devices)
+//    });
+
+//    navigator.mediaDevices.getUserMedia({ video: true })
+//       .then(d => {
+//          console.log(d.getVideoTracks())
+//       })
+
+
+//    navigator.mediaDevices.enumerateDevices().then(function (devices) {
+//       for (var i = 0; i < devices.length; i++) {
+//          var device = devices[i];
+//          if (device.kind === 'videoinput') {
+//             console.log(device.deviceId, device.label || 'camera ' + (i + 1))
+//          }
+//       };
+//    });
+// }
+
+// getCameraModel()
+//--------------get camera model-----------------
