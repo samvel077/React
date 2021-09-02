@@ -523,3 +523,22 @@ startbutton.addEventListener('click', function () {
 
 // getCameraModel()
 //--------------get camera model-----------------
+
+
+
+
+
+
+
+//-----------------highlight-------------------
+// let highlightSpan = document.querySelector('.highlightSpan')
+
+// function highlight(event) {
+//    const searchText = event.target.value.trim();
+//    const regex = new RegExp(searchText, 'g');
+//    let text = highlightSpan.innerHTML;
+//    text = text.replace(/<mark class="highlight">|<\/mark>/g, '')
+//    const newText = text.replace(regex, `<mark class="highlight">${searchText}</mark>`);
+//    highlightSpan.innerHTML = newText;
+// }
+//-----------------highlight-------------------
