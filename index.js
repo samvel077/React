@@ -542,3 +542,39 @@ startbutton.addEventListener('click', function () {
 //    highlightSpan.innerHTML = newText;
 // }
 //-----------------highlight-------------------
+
+
+
+
+
+
+
+//--------------- get content from other html file --------------
+// // put your own path names into array
+// const filesPathArr = [
+//    "./components/header/header.html",
+//    "./components/footer/footer.html",
+//    "./components/custom/custom.html",
+//  ];
+ 
+//  window.addEventListener("load", () => {
+//    filesPathArr.forEach((filePath) => {
+//      getFileContent(filePath);
+//    });
+//  });
+
+// // fetch the content from file
+//  function getFileContent(filePath) {
+//    const fileName = filePath.substring(
+//      filePath.lastIndexOf("/") + 1,
+//      filePath.lastIndexOf(".html")
+//    );
+//    fetch(filePath)
+//      .then((response) => {
+//        return response.text();
+//      })
+//      .then((data) => {
+//        document.querySelector(fileName).innerHTML = data;
+//      });
+//  }
+ //--------------- get content from other html file --------------
