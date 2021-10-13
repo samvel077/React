@@ -10,8 +10,6 @@
 // }
 // -----------Bind---------------
 
-
-
 // ------------multiplay without *--------------
 // function multiply(num1, num2) {
 //    let sum = 0;
@@ -33,13 +31,11 @@
 // console.log(a);
 // ------------multiplay without *--------------
 
-
-
 // ------------Davoyi xndir------------------
 // let x = document.getElementById('input')
-// let change = 0  
+// let change = 0
 // x.onkeyup = function () {
-//     document.getElementById('text').innerHTML = x.value 
+//     document.getElementById('text').innerHTML = x.value
 //     if (x.value === '') {
 //         change++
 //     }
@@ -48,7 +44,6 @@
 //        x.setAttribute('readonly', true)
 //     }
 // }
-
 
 // let x = document.getElementsByClassName('input')
 // let y = document.getElementsByClassName('text')
@@ -71,9 +66,6 @@
 //     }
 // }
 // ------------Davoyi xndir------------------
-
-
-
 
 // ------------Davoyi xndir 2------------------
 // let x = document.getElementsByClassName('input_skil')
@@ -140,11 +132,6 @@
 // }
 // ------------Davoyi xndir 2------------------
 
-
-
-
-
-
 // -------------Prev and Next-----------------
 // let spanForText = document.querySelector('#span_for_text')
 // let clickSum = 0
@@ -175,9 +162,6 @@
 // }
 // -------------Prev and Next-----------------
 
-
-
-
 // function sum(x,y) {
 //    if (y === undefined) {
 //       return function (y) {
@@ -190,10 +174,6 @@
 
 // console.log(sum(2, 3));
 // console.log(sum(2)(3));
-
-
-
-
 
 // ---------------add activ class-----------------
 let btns = document.querySelectorAll(".btn");
@@ -213,7 +193,6 @@ let btns = document.querySelectorAll(".btn");
 //    })
 // }
 
-
 // btns.forEach(btn => {
 //    btn.addEventListener('click', function () {
 //       btns.forEach(btn => btn.classList.remove('activ'))
@@ -221,9 +200,6 @@ let btns = document.querySelectorAll(".btn");
 //    })
 // })
 // ---------------add activ class-----------------
-
-
-
 
 // ---------mouse stop chaker----------
 // let shu = document.getElementById('shu')
@@ -242,48 +218,44 @@ let btns = document.querySelectorAll(".btn");
 // });
 // ---------mouse stop chaker----------
 
-
-
-
 // --------------mini game------------------
-let intervalSpan1 = document.querySelector('#interval1')
-let intervalSpan2 = document.querySelector('#interval2')
-let startbutton = document.querySelector('#start')
-let winnerText = document.querySelector('#winner')
+let intervalSpan1 = document.querySelector("#interval1");
+let intervalSpan2 = document.querySelector("#interval2");
+let startbutton = document.querySelector("#start");
+let winnerText = document.querySelector("#winner");
 
-startbutton.addEventListener('click', function () {
-   let num1 = undefined
-   let num2 = undefined
-   let interval = setInterval(() => {
-      num1 = Math.floor(Math.random() * 10)
-      intervalSpan1.innerText = num1
+startbutton.addEventListener("click", function () {
+  let num1 = undefined;
+  let num2 = undefined;
+  let interval = setInterval(() => {
+    num1 = Math.floor(Math.random() * 10);
+    intervalSpan1.innerText = num1;
 
-      num2 = Math.floor(Math.random() * 10)
-      intervalSpan2.innerText = num2
-   }, 80);
+    num2 = Math.floor(Math.random() * 10);
+    intervalSpan2.innerText = num2;
+  }, 80);
 
-   setTimeout(() => {
-      clearInterval(interval)
+  setTimeout(() => {
+    clearInterval(interval);
 
-      let winner = ''
+    let winner = "";
 
-      num1 > num2 ? winner = 'Win Player One' : (num1 < num2) ? winner = 'Win Player Two' : winner = 'Draw'
+    num1 > num2
+      ? (winner = "Win Player One")
+      : num1 < num2
+      ? (winner = "Win Player Two")
+      : (winner = "Draw");
 
-      winnerText.innerText = winner
-   }, 800);
-})
+    winnerText.innerText = winner;
+  }, 800);
+});
 // --------------mini game------------------
-
-
-
-
 
 //-----------------odometor animation--------------
 // let counters = document.getElementsByClassName('number-ticker');
 // let data = {
 //    number: Math.floor(Math.random() * 1000000)
 // }
-
 
 // let defaultDigitNode = document.createElement('div');
 // defaultDigitNode.classList.add('digit');
@@ -329,11 +301,6 @@ startbutton.addEventListener('click', function () {
 // });
 //-----------------odometor animation--------------
 
-
-
-
-
-
 // ---------------remove dublication----------------
 // let arr = [
 //    { num: 1, type: 'num1' },
@@ -354,11 +321,6 @@ startbutton.addEventListener('click', function () {
 // ---the same as top--- arr = [...new Set(arr.map(JSON.stringify))].map(JSON.parse)
 // --------------remove dublication----------------
 
-
-
-
-
-
 // -----------------For vimeo video-----------------
 // const iframe = document.querySelector('iframe')
 // const url = "https://player.vimeo.com/video/561730156";
@@ -366,28 +328,16 @@ startbutton.addEventListener('click', function () {
 // iframe.contentWindow.postMessage(`{"method":"pause"}`, url)
 // -----------------For vimeo video-----------------
 
-
-
-
-
 // -----------------For youtube video-----------------
 //document.querySelectorAll('.youtube-video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*');
 //document.querySelectorAll('.youtube-video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
 // -----------------For youtube video-----------------
-
-
-
-
 
 //----------------Smooth scroll------------------
 // function Click(element) {
 //    element.scrollIntoView({ behavior: "smooth", block: "start" });
 // }
 //----------------Smooth scroll------------------
-
-
-
-
 
 //-------------Function task---------------
 // Object.prototype.sum = sum
@@ -402,8 +352,6 @@ startbutton.addEventListener('click', function () {
 
 // console.log(sum(1).sum(2).sum(3).sum(12))
 
-
-
 // Number.prototype.sum = function (value) {
 //    return this + value;
 //  };
@@ -413,30 +361,20 @@ startbutton.addEventListener('click', function () {
 //  console.log(sum(5).sum(8).sum(6).sum(3));
 //-------------Function task---------------
 
-
-
-
-
-
 //-----------------other tasks----------------------
 // const a = (arr) => {
-   // const prod = (n, q) =>
-   //   Array(q)
-      //  .fill(null)
-      //  .reduce((acc, e, i) => acc * (n - i), 1);
-   // const [b, g, n] = arr;
-   // const k = n / 2;
-   // const b1 = prod(b, k);
-   // const b2 = prod(g, k);
-   // return (b1 * b2) / k;
+// const prod = (n, q) =>
+//   Array(q)
+//  .fill(null)
+//  .reduce((acc, e, i) => acc * (n - i), 1);
+// const [b, g, n] = arr;
+// const k = n / 2;
+// const b1 = prod(b, k);
+// const b2 = prod(g, k);
+// return (b1 * b2) / k;
 //  };
 //  console.log(a([2,2,2]));
 //-----------------other tasks----------------------
-
-
-
-
-
 
 //---------------------Work with Files-------------------
 // function uploadFile(event) {
@@ -448,6 +386,16 @@ startbutton.addEventListener('click', function () {
 //       dataURLtoFile(reader.result, 'file-1')
 //       base64ToblobTofile(reader.result, 'file-1')
 //    }
+
+// reader.onprogress = (_event) => {
+//    if (_event.lengthComputable) {
+//      var percentLoaded = Math.round((_event.loaded / _event.total) * 100);
+//      // Increase the progress bar length.
+//      if (percentLoaded <= 100) {
+//        console.log(percentLoaded);
+//      }
+//    }
+//  };
 // }
 
 // function dataURLtoFile(dataurl, filename) {
@@ -477,7 +425,6 @@ startbutton.addEventListener('click', function () {
 // urltoFile('data:text/plain;base64,aGVsbG8gd29ybGQ=', 'hello.txt', 'text/plain')
 //    .then(function (file) { console.log(file); });
 
-
 // function base64ToblobTofile(url, fileName) {
 //    fetch(url)
 //       .then(res => res.blob())
@@ -487,17 +434,10 @@ startbutton.addEventListener('click', function () {
 //          // formData.append('name', blob, 'file');
 //          // formData.get('name')
 
-
 //          const file = new File([blob], fileName, { type: "image/jpg" })
 //       })
 // }
 //---------------------Work with Files-------------------
-
-
-
-
-
-
 
 //--------------get camera model-----------------
 // function getCameraModel() {
@@ -509,7 +449,6 @@ startbutton.addEventListener('click', function () {
 //       .then(d => {
 //          console.log(d.getVideoTracks())
 //       })
-
 
 //    navigator.mediaDevices.enumerateDevices().then(function (devices) {
 //       for (var i = 0; i < devices.length; i++) {
@@ -524,12 +463,6 @@ startbutton.addEventListener('click', function () {
 // getCameraModel()
 //--------------get camera model-----------------
 
-
-
-
-
-
-
 //-----------------highlight-------------------
 // let highlightSpan = document.querySelector('.highlightSpan')
 
@@ -543,12 +476,6 @@ startbutton.addEventListener('click', function () {
 // }
 //-----------------highlight-------------------
 
-
-
-
-
-
-
 //--------------- get content from other html file --------------
 // // put your own path names into array
 // const filesPathArr = [
@@ -556,7 +483,7 @@ startbutton.addEventListener('click', function () {
 //    "./components/footer/footer.html",
 //    "./components/custom/custom.html",
 //  ];
- 
+
 //  window.addEventListener("load", () => {
 //    filesPathArr.forEach((filePath) => {
 //      getFileContent(filePath);
@@ -577,4 +504,4 @@ startbutton.addEventListener('click', function () {
 //        document.querySelector(fileName).innerHTML = data;
 //      });
 //  }
- //--------------- get content from other html file --------------
+//--------------- get content from other html file --------------
