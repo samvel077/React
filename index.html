@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
 
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
-   <title>Document</title>
-</head>
-
-<style>
-   .block_skil {
+  <style>
+    .block_skil {
       width: 1050px;
       min-height: 80px;
       background: white;
-      box-shadow: 0 4px 10px 0 rgba(5, 0, 0, 0.5), 0 4px 20px 0 rgba(5, 0, 0, 0.19);
-      background-image: linear-gradient(76.5deg, rgba(129, 252, 255, 1) 0.4%, rgba(255, 175, 207, 1) 49.8%, rgba(255, 208, 153, 1) 98.6%);
+      box-shadow: 0 4px 10px 0 rgba(5, 0, 0, 0.5),
+        0 4px 20px 0 rgba(5, 0, 0, 0.19);
+      background-image: linear-gradient(
+        76.5deg,
+        rgba(129, 252, 255, 1) 0.4%,
+        rgba(255, 175, 207, 1) 49.8%,
+        rgba(255, 208, 153, 1) 98.6%
+      );
       margin-top: 100px;
       margin-left: 15%;
-   }
+    }
 
-   .position_skil {
+    .position_skil {
       display: flex;
       align-items: center;
-   }
+    }
 
-   .position_block {
+    .position_block {
       word-break: break-all;
       margin-top: -50px;
       padding: 0 0 20px 0;
-   }
+    }
 
-   .input_skil {
+    .input_skil {
       width: 250px;
       height: 30px;
       font-size: 20px;
@@ -40,9 +45,9 @@
       outline: none;
       border: none;
       padding: 5px;
-   }
+    }
 
-   .div_text {
+    .div_text {
       text-align: left;
       font-size: 20px;
       margin-left: 250px;
@@ -55,39 +60,38 @@
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
         -moz-text-fill-color: transparent; */
-   }
+    }
 
-   .block_button {
+    .block_button {
       margin-left: 85%;
       margin-top: -60px;
       position: fixed;
-   }
+    }
 
-   .btn_input {
+    .btn_input {
       font-size: 25px;
-      box-shadow: 0 4px 10px 0 rgba(5, 0, 0, 0.5), 0 4px 20px 0 rgba(5, 0, 0, 0.19);
+      box-shadow: 0 4px 10px 0 rgba(5, 0, 0, 0.5),
+        0 4px 20px 0 rgba(5, 0, 0, 0.19);
       cursor: pointer;
-   }
+    }
 
-   .activ {
+    .activ {
       background: green;
-   }
-</style>
+    }
+  </style>
 
-<body>
-   <!-- ------------Davoyi xndir------------------ -->
-   <!-- <input type="text" class="input">
+  <body>
+    <!-- ------------Davoyi xndir------------------ -->
+    <!-- <input type="text" class="input">
     <input type="text" class="input">
     <input type="text" class="input">
     <div class="text">1</div>
     <div class="text">2</div>
     <div class="text">3</div> -->
-   <!-- ------------Davoyi xndir------------------ -->
+    <!-- ------------Davoyi xndir------------------ -->
 
-
-
-   <!-- ------------Davoyi xndir 2------------------ -->
-   <!-- <div class="position_block">
+    <!-- ------------Davoyi xndir 2------------------ -->
+    <!-- <div class="position_block">
       <div class="block_skil" id="skil">
          <div class="position_skil">
             <div class="block_input_skil">
@@ -104,60 +108,51 @@
          <input class="btn_input" type="button" value="+" id="btn" onclick="test()">
       </div>
    </div> -->
-   <!-- ------------Davoyi xndir 2------------------ -->
+    <!-- ------------Davoyi xndir 2------------------ -->
 
-
-
-
-   <!-- -------------Prev and Next----------------- -->
-   <!-- <button onclick="buttonClick('prev')" class="btn_1" disabled='true'>Previous text</button>
+    <!-- -------------Prev and Next----------------- -->
+    <!-- <button onclick="buttonClick('prev')" class="btn_1" disabled='true'>Previous text</button>
    <span id="span_for_text">My name is Samvel</span>
    <button onclick="buttonClick('next')" class="btn_2">Next text</button> -->
-   <!-- -------------Prev and Next----------------- -->
+    <!-- -------------Prev and Next----------------- -->
 
-
-
-   <!-- ------add activ class------ -->
-   <!-- <div class="btn activ">1</div>
+    <!-- ------add activ class------ -->
+    <!-- <div class="btn activ">1</div>
    <div class="btn">2</div>
    <div class="btn">3</div>
    <div class="btn">4</div>
    <div class="btn">5</div> -->
-   <!-- ------add activ class------ -->
+    <!-- ------add activ class------ -->
 
+    <!-- -----mouse stop chaker------ -->
+    <!-- <span id="shu"></span> -->
+    <!-- -----mouse stop chaker------ -->
 
-   <!-- -----mouse stop chaker------ -->
-   <!-- <span id="shu"></span> -->
-   <!-- -----mouse stop chaker------ -->
+    <hr />
 
-   <hr>
+    <!-- -----------mini game----------- -->
+    <span id="interval1">0</span>
+    <span id="interval2">0</span>
+    <button id="start">start</button>
+    <h2 id="winner">Win Player</h2>
+    <!-- -----------mini game----------- -->
 
-   <!-- -----------mini game----------- -->
-   <span id="interval1">0</span>
-   <span id="interval2">0</span>
-   <button id="start">start</button>
-   <h2 id="winner">Win Player</h2>
-   <!-- -----------mini game----------- -->
-
-
-   <!-- ----------odometor animation---------- -->
-   <!-- <div class="container">
+    <!-- ----------odometor animation---------- -->
+    <!-- <div class="container">
       <div class="number-ticker"></div>
    </div> -->
-   <!-- ----------odometor animation---------- -->
+    <!-- ----------odometor animation---------- -->
 
-
-   <!-- -----------------For youtube video----------------- -->
-   <!-- <iframe class="youtube-video" width="560" height="315"
+    <!-- -----------------For youtube video----------------- -->
+    <!-- <iframe class="youtube-video" width="560" height="315"
       src="https://www.youtube.com/embed/LrJbrydDf2s?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"
       controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen></iframe>
    <button onclick="play()">Play Video</button> -->
-   <!-- -----------------For youtube video----------------- -->
+    <!-- -----------------For youtube video----------------- -->
 
-
-   <!-- ----------------Smooth scroll------------------ -->
-   <!-- <button onclick="Click(target1)">Click 1</button><br>
+    <!-- ----------------Smooth scroll------------------ -->
+    <!-- <button onclick="Click(target1)">Click 1</button><br>
    <button onclick="Click(target2)">Click 2</button><br>
    <button onclick="Click(target3)">Click 3</button><br>
    <button onclick="Click(target4)">Click 4</button><br>
@@ -167,22 +162,22 @@
    <div style="width: 100%; height: 100vh; background-color: lightblue; color: #fff;" id="target3">Target3</div>
    <div style="width: 100%; height: 100vh; background-color: maroon; color: #fff;" id="target4">Target4</div>
    <div style="width: 100%; height: 100vh; background-color: orangered; color: #fff;" id="target5">Target5</div> -->
-   <!-- ----------------Smooth scroll------------------ -->
+    <!-- ----------------Smooth scroll------------------ -->
 
+    <!-- File Uplouding -->
+    <!-- <input type="file" onchange="uploadFile(event)"> -->
+    <!-- File Uplouding -->
 
-
-   <!-- File Uplouding -->
-   <!-- <input type="file" onchange="uploadFile(event)"> -->
-   <!-- File Uplouding -->
-
-
-
-   <!-- -----------------highlight------------------- -->
-   <!-- <input class="highlightInput" type="text" oninput="highlight(event)">
+    <!-- -----------------highlight------------------- -->
+    <!-- <input class="highlightInput" type="text" oninput="highlight(event)">
    <span class="highlightSpan">TExt im am here no shar me let me be togeder with you</span> -->
-   <!-- -----------------highlight------------------- -->
+    <!-- -----------------highlight------------------- -->
 
-   <script src="./index.js"></script>
-</body>
+    <!-- Generate Random Numbers Without Repetitions -->
+    <!-- <button>Generate</button>
+   <h1 id="output" style="text-align: center">Random Number</h1> -->
+    <!-- Generate Random Numbers Without Repetitions -->
 
+    <script src="./index.js"></script>
+  </body>
 </html>
